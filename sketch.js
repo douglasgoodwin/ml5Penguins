@@ -12,7 +12,7 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(800, 800);
+  createCanvas(windowWidth, windowHeight);
   background(255);
 
   // Button to reset drawing
